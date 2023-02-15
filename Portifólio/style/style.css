@@ -18,10 +18,11 @@
 }
 header{
   display: flex;
+  justify-content: center;
+  gap: 100px;
   background-color: var(--cor-2);
 }
 header > h1{
-  margin-left: 24px;
   padding-block: 34px;
 }
 .circle{
@@ -36,23 +37,38 @@ header > h1{
 }
 nav{
   background-color: #061940;
+  padding: 10px;
+}
+nav > a{
+  margin-left: 85px;
+  color: var(--cor-0);
+  text-decoration: none;
 }
 main{
   background-color: #73B2D9;
 }
 article{
-  width: 800px;
+  max-width: 800px;
   margin: auto;
   background-color: var(--cor-1);
 }
 
 section{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-top: 36px;
+  gap: 80px;
 }
 
+.content{
+  text-align: center;
+  align-self: center;
+}
+.apresentacao{
+  height: 100px;
+  width: 100px;
+}
 .apresentacao> img{
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
 }
